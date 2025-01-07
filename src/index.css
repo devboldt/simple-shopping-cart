@@ -142,3 +142,43 @@ h2 {
     margin-top: auto; /* Pushes it to the bottom of the right column */
 }
 
+/* Global styles for the navbar */
+.navbar {
+    top: 0;
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    color: white;
+    width: 100%;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; /* Adjust according to your preference */
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.cart-count {
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+h1 {
+    font-size: 24px;
+}
